@@ -7,16 +7,16 @@ function ProjectCard({title, bio, gLink, wLink, img}){
         if(gLink === ''){
             return (
                     <a className="flex items-center justify-center pt-2" href={gLink}>
-                        Github Unavailable
                         <img alt='' src={gitLogo} className='w-6 h-6 ml-2'></img>
+                        GitHub Unavailable
                     </a>
             )
         }
         else {
             return (
                 <a className="underline flex items-center justify-center pt-2" href={gLink}>
-                    Github
-                    <img alt='' src={gitLogo} className='w-6 h-6 ml-2'></img>
+                    <img alt='' src={gitLogo} className='w-6 h-6 mr-2'></img>
+                    GitHub
                 </a>
             )
         }
@@ -30,8 +30,8 @@ function ProjectCard({title, bio, gLink, wLink, img}){
                 <p className="w-5/6 ml-auto mr-auto">{bio}</p>
                 {handleGit()}
                 <a className="underline flex items-center justify-center pt-2" href={wLink}>
+                    <img alt='' src={webLogo} className='w-6 h-6 mr-2 rounded-full'></img>
                     View
-                    <img alt='' src={webLogo} className='w-6 h-6 ml-2 rounded-full'></img>
                 </a>
             </div>
         </div>

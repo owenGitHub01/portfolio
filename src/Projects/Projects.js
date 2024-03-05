@@ -8,7 +8,7 @@ import { Project1, Project2, Project3 } from "./ProjectData"
 function Projects(){
 
     return(
-        <div className="text-center pt-24">
+        <div id="project" className="text-center pt-24">
             <h1 className="text-3xl underline pb-6">Projects.</h1>
             <div>  
                 <ProjectCard title={Project1.title} bio={Project1.description} gLink={Project1.github} wLink={Project1.web} img={imgPro1}/>
