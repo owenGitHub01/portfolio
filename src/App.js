@@ -3,6 +3,7 @@ import Bio from "./Bio";
 import TechStack from "./TechStack";
 import Projects from "./Projects/Projects";
 import Contact from "./Contact";
+import ExtraInfo from "./ExtraInfo";
 
 
 function App(){
