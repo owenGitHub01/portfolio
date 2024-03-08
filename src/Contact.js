@@ -11,12 +11,12 @@ function Contact(){
             <p className='text-xl'>I'd love to hear from you!</p>
             <div className='pb-8'>
                 <div className='flex justify-center items-center pt-2 text-cyan-300'>
+                    <img className='h-6 w-6 mr-2 rounded-t-lg' alt='' src={email}></img>
                     <p>owen@domail.co.uk</p>
-                    <img className='h-6 w-6 ml-4 rounded-t-lg' alt='' src={email}></img>
                 </div>
                 <div className='flex justify-center items-center text-cyan-300'>
+                    <img className='h-8 w-8 mr-2 rounded-full' alt='' src={linkedin}></img>
                     <a className='underline' href='https://www.linkedin.com/in/owen-pearce-283388263/'>LinkedIn</a>
-                    <img className='h-8 w-16 rounded-full' alt='' src={linkedin}></img>
                 </div>
             </div>
             <div className='border border-cyan-500 w-5/6 ml-auto mr-auto mb-4'></div>

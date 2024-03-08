@@ -14,7 +14,7 @@ function ProjectCard({title, bio, gLink, wLink, img}){
         }
         else {
             return (
-                <a className="underline flex items-center justify-center pt-2" href={gLink}>
+                <a target='_blank' rel="noreferrer"  className="underline flex items-center justify-center pt-2" href={gLink}>
                     <img alt='' src={gitLogo} className='w-6 h-6 mr-2'></img>
                     GitHub
                 </a>
@@ -29,7 +29,7 @@ function ProjectCard({title, bio, gLink, wLink, img}){
                 <img className="w-5/6 h-36 ml-auto mr-auto" alt="" src={img}></img>
                 <p className="w-5/6 ml-auto mr-auto">{bio}</p>
                 {handleGit()}
-                <a className="underline flex items-center justify-center pt-2" href={wLink}>
+                <a target='_blank' rel="noreferrer"  className="underline flex items-center justify-center pt-2" href={wLink}>
                     <img alt='' src={webLogo} className='w-6 h-6 mr-2 rounded-full'></img>
                     View
                 </a>

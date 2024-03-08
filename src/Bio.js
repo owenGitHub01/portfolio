@@ -3,7 +3,7 @@ import Photo from './images/IMG_E6548.JPG'
 function Bio(){
     return (
         <div>
-            <div className='flex justify-center items-center pt-24'>
+            <div id='home' className='flex justify-center items-center pt-24'>
                 <img alt='' className='h-60 w-60 rounded-full' src={Photo}></img>
             </div>
             <div className='text-center pb-12'>

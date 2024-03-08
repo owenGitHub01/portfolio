@@ -4,6 +4,7 @@ import TechStack from "./TechStack";
 import Projects from "./Projects/Projects";
 import Contact from "./Contact";
 import ExtraInfo from "./Extra/ExtraInfo";
+import Footer from './Footer'
 
 function App(){
 
@@ -16,6 +17,7 @@ function App(){
         <Projects />
         <Contact />
         <ExtraInfo />
+        <Footer />
       </div>
     </div>
   )
