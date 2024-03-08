@@ -1,4 +1,14 @@
 
 .carousel-sizing {
-    width: 42rem
+    width: 24rem
+}
+
+.centerText {
+    text-align: center;
+}
+
+@media all and (min-width: 600px){
+    .carousel-sizing {
+        width:42rem
+    }
 }
