@@ -9,18 +9,17 @@ import ExtraSkills from './ExtraSkills'
 function ExtraInfo(){
 
     const slides = [
-        <ExtraEducation />,
         <ExtraCerts />,
         <ExtraSkills />, 
         <ExtraInterests />
     ]
 
     return (
-        <main className="App pt-24 pb-24 flex justify-center items-center w-full">
+        <main className="App pt-16 pb-16 flex justify-center items-center w-full">
             <div className='max-w-sm sm:max-w-2xl bg-gray-200'>
                 <Carousel>
                     {slides.map((s) => (
-                        <div className='h-96 centerText carousel-sizing border-2 border-black rounded-lg ml-auto mr-auto sm:h-80'>{s}</div>
+                        <div className='h-96 centerText carousel-sizing border-2 border-black rounded-lg ml-auto mr-auto sm:h-72'>{s}</div>
                     ))}
                 </Carousel>
             </div>
